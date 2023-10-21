@@ -1,0 +1,34 @@
+.footer{
+    width: 100vw;
+    height:70vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.contact{
+    width:20% ;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.about{
+width: 20%;
+
+}
+.catagories{
+width: 20%;
+}
+.feature{
+    width: 20%;
+
+}
+.events{
+    width: 20%;
+   
+}
+.aboutfooter{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}

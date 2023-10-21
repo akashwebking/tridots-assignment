@@ -1,0 +1,351 @@
+.bigimg img{
+    /* width:450px; */
+    width: 100%;
+    height:320px;
+    position: relative;
+}
+.bigimg{
+    width:50%;
+    
+}
+.insideimage{
+    position: absolute;
+    bottom:-60px;
+    left: 25px;
+    text-align: left;
+    color: white;
+}
+.redhed{
+    background-color: red;
+    display: inline;
+    color: white;
+
+}
+.sideimg1 img{
+    width: 200px;
+    height: 250px;
+}
+.containertop{
+    width: 90%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sectiontop{
+    margin-top: 20px;
+}
+.latestnews{
+    width: 22%;
+
+}
+.ads{
+    width:22%;
+}
+.left{
+    text-align: left;
+}
+.smallnews{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.smallnews img{
+    width: 150px;
+    height: 120px;
+}
+.alignleft{
+    text-align: left;
+}
+.red{
+    color: red;
+}
+.latestnews img{
+    width: 100%;
+    height: 200px;
+}
+.ads img{
+    width: 100%;
+    height: 200px;
+}
+.adscont{
+    display: flex;
+}
+.adscont img{
+width: 70px;
+height: 70px;
+
+
+
+}
+.adsincont{
+    display: flex;
+    line-height: 1px;
+    flex-direction: column;
+
+    
+}
+.top3{
+    padding: 3px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+
+}
+.top3 img{
+    width: 100px;
+    height: 80px;
+}
+.topdis{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+.subscribecont{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+    outline: none;
+}
+.subbtn{
+    width: 100px;
+    margin-left: 80px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.again{
+    width: 90%;
+    display: flex;
+}
+.imagerahul{
+    width: 40%;
+}
+.imagerahul img{
+    width: 100%;
+    height: 250px;
+}
+.listofsec2{
+    width: 35%;
+
+}
+.paralist{
+    font-size: 16px;
+    color: black;
+}
+.styleofdisk{
+    display: block;
+    list-style-type: disc;
+    color: red;
+}
+.adverd{
+    width: 25%;
+
+}
+.adverd img{
+    width: 100%;
+    margin-left: 10px;
+}
+.contoflist{
+    width: 80%;
+}
+.styleofcont{
+    list-style-type: disc;
+}
+.imageflex{
+    margin: 40px 0px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+}
+.image1{
+    width: 19%;
+}
+.image2{
+    width: 19%;
+}
+.image3{
+    width: 19%;
+}
+.image4{
+    width: 19%;
+}
+.image5{
+    width: 19%;
+}
+.image1 img{
+    width: 100%;
+    height: 130px;
+}
+.image2 img{
+    width: 100%;
+    height: 130px;
+}
+.image3 img{
+    width: 100%;
+    height: 130px;
+}
+.image4 img{
+    width: 100%;
+    height: 130px;
+}
+.image5 img{
+    width: 100%;
+    height: 130px;
+}
+.containerTrend{
+    margin: 60px 0px;
+    display: flex;
+}
+.trendtopic{
+    color: rgb(131, 127, 127);
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid rgb(131, 127, 127) ;
+}
+.hedunderline::after{
+    content:"";
+    width: 130px;
+    height: 110px;
+    background-color: red;
+}
+.hedunderline{
+    margin: 20px;
+
+  
+}
+.ledhed{
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+}
+.reserch{
+    display: flex;
+    gap:30px;
+    justify-content: baseline;
+}
+.leaderink{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.ledimg1,.ledimg2,.ledimg3,.ledimg4,.ledimg5{
+    width: 19%;
+    height: 500px;
+    border: 1px solid;
+}
+.ledimg1 .mainimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.ledimg2 .mainimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.ledimg3 .mainimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.ledimg4 .mainimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.ledimg5 .mainimg{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.roundimg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.leadimgalign{
+    display: flex;
+    justify-content: baseline;
+    padding: 5px;
+}
+.containeryoutube{
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+    
+}
+.videosec1{
+    padding: 10px;
+    width:40%;
+    height: 350px;
+}
+.emdvideo1{
+    width: 100%;
+    height: 100%;
+}
+.white{
+    color: white;
+}
+.videosec2{
+width: 60%;
+display: flex;
+justify-content: space-between;
+
+}
+.video1{
+    width:19%;
+}
+.video2{
+    width:19%;
+}
+.video3{
+    width:19%;
+}
+.overallcont{
+    width: 90%;
+    height: 300px;
+    background-color: red;
+}
+.watchads img{
+    width: 1000px;
+    height:120px;
+}
+.fashionsec{
+    padding: 10px;
+    width: 100vw;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fastitle{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.fashionall{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+.fasionsec1{
+    width: 60%;
+    height: 400px;
+    background-color: red;
+}

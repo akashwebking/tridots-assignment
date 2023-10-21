@@ -1,0 +1,160 @@
+.fashionsections{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+.fashion1{
+    width: 60%;
+    height: 400px;
+    display: flex;
+}
+.fashion2{
+    width: 40%;
+    height: 300px;
+}
+.subsec1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap: 10px;
+}
+.subsec1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.subsec2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    gap: 10px;
+}
+.fasfelx{
+    display: flex;
+    gap: 10px;
+}
+.subsec2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px; 
+}
+.fashcar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fashioncarimg1{
+   display: flex;
+   gap: 10px; 
+}
+.fashioncarimg1 img{
+    width: 100px;
+    height: 100px;
+}
+.margintb{
+    margin: 10px 0;
+}
+.foodsection{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.foodsec1{
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid rgb(160, 155, 155);
+}
+.foodsec1 img{
+    width: 100%;
+    height: 250px;
+}
+.ecomerce{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ecombox1{
+    width: 31%;
+    border: 2px solid;
+    /* height: 400px; */
+}
+.ecombox2{
+    width: 31%;
+    border: 2px solid;
+}
+.ecombox3{
+    width: 31%;
+    border: 2px solid;
+   
+}
+.ecomtitle{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.ecomimage img{
+    width: 150px;
+    height: 150px;
+}
+.eomimage1{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+
+}
+.eomimage1 img{
+    width: 150px;
+    height: 150px;
+}
+.ecomcon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.shopingcenter{
+    width: 100vw;
+    margin-bottom: 100px;
+    display: flex;
+}
+.shopmtitle{
+    width:60%;
+    display: flex;
+    justify-content:space-between;
+    margin: 20px;
+}
+.shopingstore{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+
+}
+.shostore{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    
+}
+.shostore img{
+    width: 400px;
+    height: 150px;
+}
+.shopingstore2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.corectalign{
+    display: flex;
+    gap: 10px;
+}
